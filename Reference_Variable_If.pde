@@ -1,5 +1,3 @@
-// add your Reference_Variable_If code here
-
 int X= 50;
 int Y= 50;
 int bounce= 1;
@@ -21,4 +19,5 @@ void setup() {
       bounce=bounce*(-1);
     }
   }
+  
   
