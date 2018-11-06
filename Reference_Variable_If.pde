@@ -1,9 +1,9 @@
 int X= 50;
 int Y= 50;
-int bounce= 1;
+int bounce= 40;
 
 void setup() {
-  size(200,200); 
+  size(1000,200); 
  }
  
   void draw() {
@@ -19,5 +19,6 @@ void setup() {
       bounce=bounce*(-1);
     }
   }
+  
   
   
